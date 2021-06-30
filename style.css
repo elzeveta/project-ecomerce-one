@@ -248,12 +248,12 @@ footer p {
 
 /* items */
 .items {
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   font-size: 15px;
   width: 100%;
   display: flex;
   flex-flow: row wrap;
-  filter: grayscale(75%);
+  /* filter: grayscale(75%); */
 }
 
 .items-count {
@@ -463,4 +463,17 @@ h1 {
   width: 100%;
   font: inherit;
   margin: 0;
+}
+#submit {
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+.sub {
+  color: #fff;
+}
+.h {
+  margin: 0;
+}
+#email {
+  padding: 5px 0;
 }
